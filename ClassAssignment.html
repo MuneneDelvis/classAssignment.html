@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Questionnare</title>
+    </head>
+    <body>
+        <form method="post" action="save.php">
+            <label>Patients Name</label>
+            <input type="text" name="parents name"/>
+            <br>
+            <h4>Bio</h4>
+<label>GENDER</label>
+<input type="radio" name="gender"/>Male
+<input type="radio" name="gender"/>Female
+<input type="radio" name="gender"/>Others
+<br>
+<label>AGE</label>
+<input type="radio" name="AGE"/>0-12yrs
+<input type="radio" name="AGE"/>13-19yrs
+<input type="radio" name="AGE"/>20-35yrs
+<input type="radio" name="AGE"/>>35yrs
+<br>
+<h4>Blood pressure</h4>
+<br>
+<label>Systomic (mmHg)</label>
+<input type="number" name="systomic(mmHg"/>
+<label>Diastolic (mmHg)</label>
+<input type="number" name="diastolic(mmHg)"/>
+<br>
+<h4>Body Mass Index</h4>
+<label>Weight (kgs)</label>
+<input type="number" name="weight(kgs)"/>
+<label>Height(metres)</label>
+<input type="number" name="height(metres)"/>
+<br>
+<h5><label>Status</label></h5>
+<br>
+<input type="submit" name="submit" value="GENERATE"/>
+<input type="reset" name="reset" value="CANCEL"/>
+<br>
+
+<textarea name="comments"rows="15" cols="60">
+        </textarea>
+
+
+        </form>
+    </body>
+</html>
